@@ -4,7 +4,7 @@ on:
   schedule:
     # 00:30 UTC is 08:30 in Beijing time.
     # Runs every day at 08:30 Beijing time.
-    - cron: "*/15 * * * *"
+    - cron: "7,22,37,52 * * * *"
   workflow_dispatch:
 
 permissions:
