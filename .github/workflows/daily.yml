@@ -1,10 +1,9 @@
 name: Daily Paper Reading Report
 
 on:
-schedule:
-    # 21:13 UTC is 05:13 in Beijing time (next day).
-    # Runs every day at 05:13 Beijing time.
+  schedule:
     - cron: "13 21 * * *"
+
   workflow_dispatch:
 
 permissions:
